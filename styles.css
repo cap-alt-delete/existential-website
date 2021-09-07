@@ -20,14 +20,19 @@ body {
   font-size: 14px;
   font-family: Helvetica, Arial, sans-serif;
 
-  color: #555;
+  background-color: #333333;
+  color: #F3F3F3;
 }
 
 h1 {
   margin-top: 1em;
   padding-top: 1em;
-  margin-bottom: 1em;
-  color: #333;
+  font-size: 2em;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
 }
 
 h1 span {
@@ -36,9 +41,16 @@ h1 span {
   display: block;
 }
 
+a {
+  color: #F58F73;
+  text-decoration: none;
+  margin-top: 2em;
+}
 
-.header {
-  height: 50px;
+a:hover {
+  font-size: 1.2em;
+  color: #D6D6D6;
+  text-decoration: underline;
 }
 
 .page-section {
@@ -49,13 +61,11 @@ h1 span {
   align-items: center;
 }
 
-footer {
-  margin: 0;
-  padding: 0;
+.link-choices {
+  display: flex;
+  flex-direction: row;
 }
 
-.link-choices {
-  margin-top: 2em;
-  display: flex;
-  justify-content: space-around;
+.link-choices > a:last-of-type {
+  margin-left: 60px;
 }
