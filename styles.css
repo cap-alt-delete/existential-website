@@ -41,6 +41,10 @@ h1 span {
   display: block;
 }
 
+strong {
+  color: #f7c7ba;
+}
+
 a {
   color: #F58F73;
   text-decoration: none;
@@ -49,7 +53,7 @@ a {
 
 a:hover {
   font-size: 1.2em;
-  color: #D6D6D6;
+  color: #a8a8a8;
   text-decoration: underline;
 }
 
