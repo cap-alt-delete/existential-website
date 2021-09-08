@@ -74,6 +74,46 @@ a:hover {
   margin-left: 60px;
 }
 
+/*CSS illustration*/
+.robot-face {
+  height: 100px;
+  width: 175px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #F58F73;
+  border-radius: 6%;
+}
+
+.right-eye {
+  height: 8px;
+  width: 8px;
+  border: 6px solid #F58F73;
+  border-radius: 30%;
+  position: relative;
+  top: 18px;
+  left: 55px;
+}
+
+.mouth {
+  width: 10px;
+  border-bottom: 2px solid #F58F73;
+  position: relative;
+  top: 25px;
+}
+
+.left-eye {
+  height: 8px;
+  width: 8px;
+  border: 6px solid #F58F73;
+  border-radius: 30%;
+  position: relative;
+  top: 18px;
+  right: 55px;
+}
+
 @media only screen and (max-width: 450px) {
   .page-section {
     height: 800px;
